@@ -44,7 +44,6 @@ function displayweatherinfo(data) {
     tempdisplay.textContent = `Temperature: ${Math.round(temp - 273.15)}°C`; // Convert temperature from Kelvin to Celsius
     humiditydisplay.textContent = `Humidity: ${humidity}%`;
     descdisplay.textContent = `Description: ${description}`;
-    console.log("Weather ID:",id);
     weatheremoji.textContent=getweatheremoji(id);
     
     citydisplay.classList.add("citydisplay");
