@@ -1,11 +1,16 @@
 body{
-    background-color: hsl(2, 78%, 67%);
+    background-color: #3498DB;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     margin:0;
     flex-direction: column;
     align-items: center;
 
+}
+.sc{
+    font-weight:bold;
+    font-size:3.5rem;
+    color:#2C3E50;
 }
 .weatherform{
     margin:20px;
@@ -23,8 +28,8 @@ body{
     font-weight: bold;
     border: 2px solid;
     margin: 10px;
-    background-color: rgb(146, 213, 80);
-    color: rgb(103, 146, 184);
+    background-color: orange;
+    color: blue;
 }
 .card{
     background: linear-gradient(180deg,hsl(210, 56%, 54%),rgb(154, 119, 55));
