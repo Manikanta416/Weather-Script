@@ -87,4 +87,3 @@ function displayerror(message) {
     card.style.display = "flex";
     card.appendChild(errordisplay);
 }
-
